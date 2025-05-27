@@ -1,0 +1,114 @@
+/* Basic reset and fonts */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    text-align: center;
+}
+
+body.about-page {
+    background-color: #9c0a9c; /* or any preferred background */
+    color: #f1dc1e; /* dark gray text for readability */
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    flex: 1;
+}
+
+body.homepage {
+    background-size: auto 100%;
+    background-color: purple;
+    color: yellow;
+}
+
+body.products-page {
+    background-color: purple; /* Light cream color, feel free to change */
+    color: #f3ef0b; /* Ensures readable text */
+}
+
+body.contact-page {
+    background-color: Purple; /* Light yellow background */
+    color: Yellow; /* Optional: ensure dark text for readability */
+}
+
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.cart-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Cart counter styling */
+#cart-counter {
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+/* Flex layout for sticky footer */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Footer styling */
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Dairy farm images container */
+.dairy-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.dairy-images img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
